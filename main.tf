@@ -1,7 +1,7 @@
 module "agent" {
   source = "github.com/VinodKumarKP/capgemini_terraform_aws_bedrock_agent_modules"
 
-  agent_name                  = var.agent_name
+  agent_name                  = "${var.component_id}-${var.agent_name}"
   lambda_function_path        = "${path.cwd}/lambda_code"
   lambda_function_description = ""
   lambda_function_name        = "get-product-info"
