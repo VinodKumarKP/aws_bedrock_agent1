@@ -1,0 +1,1 @@
+{"filename": "builds/ec752130c9586f494228700cc76a579db3e2bfc96993881f25cabc5edc023cbf.zip", "runtime": "python3.10", "artifacts_dir": "builds", "build_plan": [["zip", "/Users/vinodkumarkp/PycharmProjects/aws_bedrock_agent1/lambda_code", null]]}

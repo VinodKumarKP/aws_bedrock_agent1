@@ -1,0 +1,77 @@
+[
+  {
+    "name": "lambda_handler",
+    "description": "Lambda function to scan code repository for vulnerabilities and push remediated code to a new branch",
+    "parameters": [
+      {
+        "name": "branch_name",
+        "description": "Branch name of code repository that needs to be scanned",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "file_extensions_to_exclude",
+        "description": "File extensions like needs to be excluded from scanning",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "folders_to_exclude",
+        "description": "Folder names to exclude from scanning",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "new_remediated_branch_name",
+        "description": "New branch name to push remediated code",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "repository_url",
+        "description": "Code repository url",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "requireConfirmation": "ENABLED"
+  },
+  {
+    "name": "lambda_handler2",
+    "description": "Lambda function to scan code repository for vulnerabilities and push remediated code to a new branch",
+    "parameters": [
+      {
+        "name": "branch_name",
+        "description": "Branch name of code repository that needs to be scanned",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "file_extensions_to_exclude",
+        "description": "File extensions like needs to be excluded from scanning",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "folders_to_exclude",
+        "description": "Folder names to exclude from scanning",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "new_remediated_branch_name",
+        "description": "New branch name to push remediated code",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "name": "repository_url",
+        "description": "Code repository url",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "requireConfirmation": "ENABLED"
+  }
+
+]
